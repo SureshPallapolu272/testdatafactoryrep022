@@ -1,0 +1,17 @@
+{
+	"name": "DS_InputDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLConnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Sales_File_2014_2019_USA_UK_IND"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

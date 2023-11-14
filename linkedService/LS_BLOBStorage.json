@@ -1,0 +1,16 @@
+{
+	"name": "LS_BLOBStorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://testazureblobstorage022.blob.core.windows.net/",
+			"accountKind": "StorageV2",
+			"credential": {
+				"referenceName": "credentials",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}

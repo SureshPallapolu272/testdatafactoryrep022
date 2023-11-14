@@ -1,0 +1,12 @@
+{
+	"name": "LS_ADLSConnection",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://testazuredatalakegen2022.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRGNUI3RUUyLUVDQUEtNEY3MC1CMDFELThBMzYwQzAyQUFGNV8wNjc3YjA5MS0yMjZkLTRiZDEtYTAzMS1mNmE3YzZkYTdjYTYiDQp9"
+		}
+	}
+}

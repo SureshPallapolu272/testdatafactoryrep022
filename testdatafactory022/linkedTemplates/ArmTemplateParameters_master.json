@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "testdatafactory022"
+		},
+		"LS_ADLSConnection_accountKey": {
+			"value": ""
+		},
+		"LS_BlobConnection_servicePrincipalCredential": {
+			"value": ""
+		},
+		"LS_Log_connectionString": {
+			"value": ""
+		},
+		"LS_SQLConnection_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_sasUri": {
+			"value": ""
+		},
+		"LS_ADLSConnection_properties_typeProperties_url": {
+			"value": "https://testazuredatalakegen2022.dfs.core.windows.net/"
+		},
+		"LS_BLOBStorage_properties_typeProperties_serviceEndpoint": {
+			"value": "https://testazureblobstorage022.blob.core.windows.net/"
+		},
+		"LS_BlobConnection_properties_typeProperties_serviceEndpoint": {
+			"value": "https://testazureblobstorage022.blob.core.windows.net/"
+		},
+		"LS_BlobConnection_properties_typeProperties_tenant": {
+			"value": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+		},
+		"LS_BlobConnection_properties_typeProperties_servicePrincipalId": {
+			"value": "eb1bd716-a948-4ca7-b0db-59613ea44492"
+		},
+		"LS_HTTPLinkedService_properties_typeProperties_url": {
+			"value": "@{linkedService().baseURL}"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
